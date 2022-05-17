@@ -1,0 +1,102 @@
+*{
+    font-family: 'Viga', sans-serif;
+}
+
+.container{
+    width: 80%;
+}
+
+.content-desc {
+    font-size: 13px;
+}
+
+.content-width{
+    width: 60%;
+}
+
+.back-btn{
+    opacity: 0.95;
+    font-size: 12px;
+    transition: .2s;
+}
+
+.back-btn:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.back-btn:active{
+    font-size: 11px;
+}
+
+.topic-btn .btn{
+    font-size: 13px;
+    margin: 0 6px;
+    transition: .2s;
+}
+
+.topic-btn .btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.topic-btn .btn:active{
+    font-size: 12px;
+}
+
+#video-editing{
+    display: block;
+}
+
+#graphic-design{
+    display: none;
+}
+
+@media screen and (max-width: 768px) and (min-width: 280px){
+    .container{
+        width: 100%;
+    }
+
+    .container h1:nth-child(1){
+        font-size: 25px;
+    }
+
+    .back-btn{
+        font-size: 10px;
+    }
+
+    .back-btn:active{
+        font-size: 9px;
+    }
+
+    .content-width{
+        width: 80%;
+    }
+
+    .video-desc {
+        font-size: 12px;
+    }
+
+    .portfolio-content h4{
+        font-size: 20px;
+    }
+
+    .topic-btn .btn{
+        font-size: 10px;
+    }
+
+    .topic-btn .btn:active{
+        font-size: 9px;
+    }
+    
+}
+
+@media screen and (max-width: 279px){
+    .video-desc {
+        font-size: 11px;
+    }
+
+    .portfolio-content h4{
+        font-size: 15px;
+    }
+}

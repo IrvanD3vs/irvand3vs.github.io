@@ -1,0 +1,149 @@
+*{
+    font-family: 'Viga', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h5{
+    line-height: 15px;
+}
+
+.content p{
+    text-align: center;
+    font-size: 11x;
+    width: 80%;
+}
+
+
+.contact a{
+    padding: 0 10px;
+    cursor: pointer;
+    transition: .2s;
+    text-decoration: none;
+}
+
+.contact a:active{
+    font-size: 25px;
+}
+
+.content-btn button{
+    transition: .2s;
+}
+
+
+.content-btn button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.content-btn button:focus:active{
+    font-size: 14px;
+}
+
+#english{
+    display: block;
+}
+
+#indonesia{
+    display: none;
+}
+
+.translation{
+    transform: scale(85%);
+}
+
+.form-check{
+    margin-left: 8.5px;
+}
+
+.form-check-input{
+    cursor: pointer;
+}
+
+.form-check-input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* responsive */
+@media screen and (max-width: 768px) and (min-width: 280px) {
+    .container{
+        width: 100%;
+    }
+
+    .profile img{
+        width: 150px;
+    }
+
+    .content h1{
+        font-size: 25px;
+    }
+
+    .content h5{
+        font-size: 18px;
+    }
+
+    .content p{
+        font-size: 11px;
+        width: 90%;
+    }
+
+    .content-btn button{
+        font-size: 10px;
+    }
+
+    .content-btn button:focus:active{
+        font-size: 9px;
+    }
+
+    .translation{
+        transform: scale(70%);
+    }
+}
+
+@media screen and (max-width: 279px) {
+    .container{
+        width: 100%;
+        transform: scale(70%);
+    }
+
+    .profile img{
+        width: 120px;
+    }
+
+    .content h1{
+        font-size: 20px;
+    }
+
+    .content h5{
+        font-size: 14px;
+    }
+
+    .content p{
+        line-height: 12px;
+        font-size: 9px;
+        width: 90%;
+    }
+
+    .content-btn button{
+        font-size: 10px;
+    }
+
+    .content-btn button:focus:active{
+        font-size: 9px;
+    }
+
+    .translation{
+        transform: scale(50%);
+    }
+}
